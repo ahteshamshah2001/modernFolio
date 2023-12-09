@@ -9,7 +9,7 @@
                                 src="{{ asset('assets/imgs/svg-assets/hi.png') }}"
                                 alt="{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : '') }}"></span>
                         , I'm <a
-                            href="{{ (!empty(Voyager::setting('site.linkedin')) ? Voyager::setting('site.linkedin') : '') }}"
+                            href="{{ (!empty(Voyager::setting('site.1linkinbio')) ? Voyager::setting('site.1linkinbio') : '') }}"
                             target="_blank">Ahtesham</a>.
                     </h6>
                     <h1 class="fz-45">A Full-Stack Developer With Expertise In Back-end Development.</h1>

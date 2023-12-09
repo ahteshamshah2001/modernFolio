@@ -79,7 +79,7 @@
                         </div>
                         <div class="header-action-items">
                             <ul class="header-social list-inline">
-                                <li><a href="{{ route('linktree') }}"><i class="fa fa-link"></i></a>
+                                <li><a href="{{ (!empty(Voyager::setting('site.1linkinbio')) ? Voyager::setting('site.1linkinbio') : '') }}"><i class="fa fa-link"></i></a>
                                 </li>
                             </ul>
                             <div class="search-icon"> <a href="#search"> <i class="fas fa-search"></i></a></div>
