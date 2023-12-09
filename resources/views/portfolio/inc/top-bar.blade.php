@@ -7,10 +7,10 @@
                     <div class="slide-har st1">
                         <div class="box non-strok">
                             @if (!empty($data['services']))
-                                @foreach ($data['services'] as  $service)
+                                @foreach ($data['services'] as $s_key => $service)
                                     <div class="item">
-                                        <h4 class="d-flex align-items-center"><span>{{ $service->title ?? '' }}</span>
-                                            <span class="fz-50 ml-50 stroke icon">*</span></h4>
+                                        <h4 class="d-flex align-items-center"><span>{{ $service->title ?? "" }}</span> <span
+                                                class="fz-50 ml-50 stroke icon">*</span></h4>
                                     </div>
                                 @endforeach
                             @endif
