@@ -40,7 +40,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-img" data-background="{{ asset('assets/imgs/freelancer/ooo.webp') }}"></div>
+    <div class="bg-img" data-background="{{ Voyager::image(setting('site.cover_image')) }}"></div>
 </header>
 
 <!-- ==================== End Slider ==================== -->
