@@ -12,7 +12,7 @@
                             href="{{ (!empty(Voyager::setting('site.1linkinbio')) ? Voyager::setting('site.1linkinbio') : '') }}"
                             target="_blank">{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : 'Site Title') }}</a>.
                     </h6>
-                    <h1 class="fz-45">{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : 'Site Title') }}</h1>
+                    <h1 class="fz-45">{{ (!empty(Voyager::setting('site.tag_line')) ? Voyager::setting('site.tag_line') : 'This is demo Tag Line') }}</h1>
                     <div class="row mt-50">
                         <div class="col-lg-3 cal-act order2">
                             <a data-scroll-nav="3" href="javascript:void(0)"
