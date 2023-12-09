@@ -1,0 +1,4 @@
+[29-Sep-2023 22:08:34 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home2/goalzcom/public_html/vendor/tcg/voyager/src/Http/Controllers/VoyagerCompassController.php on line 291
+[07-Oct-2023 14:02:05 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home2/goalzcom/public_html/vendor/tcg/voyager/src/Http/Controllers/VoyagerCompassController.php on line 291
+[07-Oct-2023 14:02:29 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home2/goalzcom/public_html/vendor/tcg/voyager/src/Http/Controllers/VoyagerCompassController.php on line 291
+[07-Oct-2023 15:55:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home2/goalzcom/public_html/vendor/tcg/voyager/src/Http/Controllers/VoyagerCompassController.php on line 291

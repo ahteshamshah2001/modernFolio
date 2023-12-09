@@ -1,0 +1,1 @@
+{!! !empty(Voyager::setting('site.googleInc')) ? Voyager::setting('site.googleInc') : '' !!}

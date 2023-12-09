@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin
+Disallow: /search?query=
+Sitemap: https://ahtesham.me/sitemap.xml
+Sitemap: https://ahtesham.me/post-sitemap.xml
+Sitemap: https://ahtesham.me/tools-sitemap.xml
+Sitemap: https://ahtesham.me/category-sitemap.xml
