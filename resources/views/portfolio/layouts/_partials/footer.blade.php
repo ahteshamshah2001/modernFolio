@@ -31,7 +31,7 @@
                                 <a target="_blank"
                                    href="{{ (!empty(Voyager::setting('site.1linkinbio')) ? Voyager::setting('site.1linkinbio') : '') }}"
                                    class="hover-this"><span
-                                        class="hover-anim">1linkinbio.com/{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : '') }}</span></a>
+                                        class="hover-anim">My 1linkinbio</span></a>
                             </li>
                         </ul>
                     </div>
