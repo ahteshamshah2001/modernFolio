@@ -7,12 +7,12 @@
                 <div class="caption">
                     <h6 class="fw-400 mb-15">Hello <span class="icon-img-30"><img
                                 src="{{ asset('assets/imgs/svg-assets/hi.png') }}"
-                                alt="{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : '') }}"></span>
+                                alt="{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : 'Site Title') }}"></span>
                         , I'm <a
                             href="{{ (!empty(Voyager::setting('site.1linkinbio')) ? Voyager::setting('site.1linkinbio') : '') }}"
-                            target="_blank">{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : '') }}</a>.
+                            target="_blank">{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : 'Site Title') }}</a>.
                     </h6>
-                    <h1 class="fz-45">{{ (!empty(Voyager::setting('site.tag_line')) ? Voyager::setting('site.tag_line') : '') }}</h1>
+                    <h1 class="fz-45">{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : 'Site Title') }}</h1>
                     <div class="row mt-50">
                         <div class="col-lg-3 cal-act order2">
                             <a data-scroll-nav="3" href="javascript:void(0)"
@@ -27,7 +27,7 @@
                                     <span class="full-width">View Works</span>
                                 </div>
                                 <img src="{{ asset('assets/imgs/svg-assets/circle-star.svg') }}"
-                                     alt="{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : '') }}"
+                                     alt="{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : 'Site Title') }}"
                                      class="circle-star">
                             </a>
                         </div>
@@ -40,7 +40,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-img" data-background="{{ Voyager::image(setting('site.cover_image')) }}"></div>
+    <div class="bg-img" data-background="{{ Voyager::image(setting('site.cover_image'))  ?? asset('assets/imgs/freelancer/ooo.webp')  }}"></div>
 </header>
 
 <!-- ==================== End Slider ==================== -->
