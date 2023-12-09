@@ -95,12 +95,6 @@
                             <button><span class="pe-7s-search"></span></button>
                         </div>
                     </div>
-                    <ul class="rest social-text d-flex mt-50 fz-13">
-                        <li class="mr-20">
-                            <a href="{{ route('linktree') }}"
-                               class="hover-this"><span class="hover-anim">LinkTree</span></a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>

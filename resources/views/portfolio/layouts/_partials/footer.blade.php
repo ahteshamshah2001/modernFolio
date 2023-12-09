@@ -26,14 +26,6 @@
                             <a target="_blank"
                                href="https://api.whatsapp.com/send?phone={{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}">+{{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}</a>
                         </div>
-                        <ul class="rest social-text d-flex mt-60">
-                            <li class="mr-30">
-                                <a target="_blank"
-                                   href="{{ route('linktree') }}"
-                                   class="hover-this"><span
-                                        class="hover-anim">LinkTree</span></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1 valign">
@@ -84,7 +76,7 @@
                         <div class="ml-auto">
                             <p class="fz-13">© 2017 To {{ date('Y') }} All rights reserved by <span class="underline"><a
                                         href="https://ahtesham.me"
-                                        target="_blank">ahtesham.me</a></span></p>
+                                        target="_blank">{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : '') }}</a></span></p>
                         </div>
                     </div>
                 </div>
