@@ -1,5 +1,5 @@
 <!-- Favicon -->
-<link rel="shortcut icon" href="{{ Voyager::image(setting('admin.icon_image')) }}">
+<link rel="shortcut icon" href="{{ Voyager::image(setting('site.favicon')) }}">
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
       rel="stylesheet">
