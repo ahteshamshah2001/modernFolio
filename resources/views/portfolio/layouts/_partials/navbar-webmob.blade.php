@@ -71,7 +71,7 @@
                         </li>
                         <li>
                             <div class="o-hidden">
-                                <a href="mail:contact@ahtesham.me" class="link"><span class="fill-text" data-text="Contact">Contact</span></a>
+                                <a href="mail:{{ (!empty(Voyager::setting('site.email')) ? Voyager::setting('site.email') : '') }}" class="link"><span class="fill-text" data-text="Contact">Contact</span></a>
                             </div>
                         </li>
                     </ul>
@@ -86,7 +86,7 @@
                                 href="https://api.whatsapp.com/send?phone={{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}">+{{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}</a>
                         </p>
                         <p>
-                            <a href="mail:contact@ahtesham.me">{{ (!empty(Voyager::setting('site.email')) ? Voyager::setting('site.email') : '') }}</a>
+                            <a href="mail:{{ (!empty(Voyager::setting('site.email')) ? Voyager::setting('site.email') : '') }}">{{ (!empty(Voyager::setting('site.email')) ? Voyager::setting('site.email') : '') }}</a>
                         </p>
                     </div>
                     <div class="search-form">
