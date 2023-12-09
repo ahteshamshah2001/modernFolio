@@ -6,74 +6,14 @@
                 <div class="main-marq light-text">
                     <div class="slide-har st1">
                         <div class="box non-strok">
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Wordpress Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Web App Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Mobile App Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Website Maintenance</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>React Native Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>eCommerce Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Shopify Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Magento Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Open Cart Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>WOO Commerce Development</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Branding Solutions</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Web Application Design</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Mobile App Design</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Logo Services Solutions</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>SEO Services Solutions</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Digital Marketing Solutions</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
-                            <div class="item">
-                                <h4 class="d-flex align-items-center"><span>Content Writing Solutions</span> <span
-                                        class="fz-50 ml-50 stroke icon">*</span></h4>
-                            </div>
+                            @if (count($globalServices) > 0)
+                                @foreach ($globalServices as $globalService)
+                                    <div class="item">
+                                        <h4 class="d-flex align-items-center"><span>{{ $globalService->title ?? "" }}</span> <span
+                                                class="fz-50 ml-50 stroke icon">*</span></h4>
+                                    </div>
+                                @endforeach
+                            @endif
                         </div>
                     </div>
                 </div>
