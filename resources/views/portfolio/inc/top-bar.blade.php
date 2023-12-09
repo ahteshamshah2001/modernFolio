@@ -6,11 +6,11 @@
                 <div class="main-marq light-text">
                     <div class="slide-har st1">
                         <div class="box non-strok">
-                            @if (!empty($globalServices))
-                                @foreach ($globalServices as $globalService)
+                            @if (!empty($data['services']))
+                                @foreach ($data['services'] as  $service)
                                     <div class="item">
-                                        <h4 class="d-flex align-items-center"><span>{{ $globalService->title ?? "" }}</span> <span
-                                                class="fz-50 ml-50 stroke icon">*</span></h4>
+                                        <h4 class="d-flex align-items-center"><span>{{ $service->title ?? '' }}</span>
+                                            <span class="fz-50 ml-50 stroke icon">*</span></h4>
                                     </div>
                                 @endforeach
                             @endif
