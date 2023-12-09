@@ -32,8 +32,7 @@
                             </a>
                         </div>
                         <div class="col-lg-8 offset-lg-1 valign order1 md-mb50">
-                            <p class="fz-16">We appreciate your trust greatly our clients choose us & our services
-                                because they know we are the best.</p>
+                            <p class="fz-16">{{ Voyager::setting('site.work_tag_line') ?? 'We appreciate your trust greatly our clients choose us & our services because they know we are the best.' }}</p>
                         </div>
                     </div>
                 </div>
