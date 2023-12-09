@@ -7,7 +7,7 @@
             </div>
             <div class="col-lg-3 order2">
                 <div class="img">
-                    <img src="{{  Voyager::image(setting('site.intro_section_image')) ?? asset('assets/imgs/freelancer/ahtesham-profile.webp') }}" alt="" class="parallax" data-speed="0.01">
+                    <img src="{{  Voyager::image(setting('site.intro_section_image')) ? Voyager::image(setting('site.intro_section_image')) : asset('assets/imgs/freelancer/ahtesham-profile.webp') }}" alt="" class="parallax" data-speed="0.01">
                     <span class="star-shape">
                                 <img src="{{ asset('assets/imgs/svg-assets/star-shape.png') }}" alt="" class="parallax"
                                      data-speed="-0.01">

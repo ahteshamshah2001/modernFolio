@@ -24,12 +24,12 @@
                         <p class="fz-15 mt-10">If you would like to work with us or just want to get in touch, we’d love to hear from you!</p>
                         <div class="phone fz-30 fw-600 mt-30 underline">
                             <a target="_blank"
-                               href="https://api.whatsapp.com/send?phone={{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}">+{{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}</a>
+                               href="https://api.whatsapp.com/send?phone={{ Voyager::setting('site.phone') ? Voyager::setting('site.phone') : '#') }}">+{{ Voyager::setting('site.phone') ? Voyager::setting('site.phone') : '00000000000' }}</a>
                         </div>
                         <ul class="rest social-text d-flex mt-60">
                             <li class="mr-30">
                                 <a target="_blank"
-                                   href="{{ (!empty(Voyager::setting('site.1linkinbio')) ? Voyager::setting('site.1linkinbio') : '') }}"
+                                   href="{{ Voyager::setting('site.1linkinbio') ? Voyager::setting('site.1linkinbio') : '#') }}"
                                    class="hover-this"><span
                                         class="hover-anim">My 1linkinbio</span></a>
                             </li>
@@ -84,7 +84,7 @@
                         <div class="ml-auto">
                             <p class="fz-13">© 2019 To {{ date('Y') }} All rights reserved by <span class="underline"><a
                                         href="{{ env('APP_URL') }}"
-                                        target="_blank">{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : '') }}</a></span></p>
+                                        target="_blank">{{ Voyager::setting('site.title') ? Voyager::setting('site.title') : 'Site Title' }}</a></span></p>
                         </div>
                     </div>
                 </div>

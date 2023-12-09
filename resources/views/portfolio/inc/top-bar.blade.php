@@ -6,7 +6,7 @@
                 <div class="main-marq light-text">
                     <div class="slide-har st1">
                         <div class="box non-strok">
-                            @if (!empty($data['services']))
+                            @if (count($data['services']) > 0)
                                 @foreach ($data['services'] as $s_key => $service)
                                     <div class="item">
                                         <h4 class="d-flex align-items-center"><span>{{ $service->title ?? '' }}</span>
