@@ -82,8 +82,8 @@
                 <div class="col-lg-12">
                     <div class="copyright d-flex">
                         <div class="ml-auto">
-                            <p class="fz-13">© 2017 To {{ date('Y') }} All rights reserved by <span class="underline"><a
-                                        href="https://ahtesham.me"
+                            <p class="fz-13">© 2019 To {{ date('Y') }} All rights reserved by <span class="underline"><a
+                                        href="{{ env('APP_URL') }}"
                                         target="_blank">{{ (!empty(Voyager::setting('site.title')) ? Voyager::setting('site.title') : '') }}</a></span></p>
                         </div>
                     </div>
