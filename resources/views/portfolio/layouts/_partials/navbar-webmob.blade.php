@@ -83,7 +83,7 @@
                         <h5 class="mb-15">Get In Touch</h5>
                         <p>{{ (!empty(Voyager::setting('site.site_address')) ? Voyager::setting('site.site_address') : '') }}</p>
                         <p class="underline main-color mt-5 mb-5"><a
-                                href="https://api.whatsapp.com/send?phone={{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}">+{{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}">{{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}</a>
+                                href="https://api.whatsapp.com/send?phone={{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}">+{{ (!empty(Voyager::setting('site.phone')) ? Voyager::setting('site.phone') : '') }}</a>
                         </p>
                         <p>
                             <a href="mail:contact@ahtesham.me">{{ (!empty(Voyager::setting('site.email')) ? Voyager::setting('site.email') : '') }}</a>
